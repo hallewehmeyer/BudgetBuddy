@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost/budget", {
+mongoose.connect(`mongodb+srv://halle_admin:Unicorn04*${process.env.mongopass}@cluster0.mkbbb.mongodb.net/<dbname>?retryWrites=true&w=majority`, {
   useNewUrlParser: true,
   useFindAndModify: false
 });
