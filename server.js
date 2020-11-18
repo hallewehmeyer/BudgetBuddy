@@ -20,7 +20,6 @@ mongoose.connect(`mongodb+srv://halle_admin:Unicorn04*${process.env.mongopass}@c
   useFindAndModify: false
 });
 
-// routes
 app.use(require("./routes/api.js"));
 
 app.listen(PORT, () => {
