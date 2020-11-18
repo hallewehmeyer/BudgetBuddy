@@ -5,7 +5,7 @@
 
 ## Description
 
-By using Budget Buddy, you are able to keep track of your finances in real time, online or offline. You are able to track transaction activity, add remove funds, and balence your account all in one convenient location.
+By using Budget Buddy, you are able to keep track of your finances in real time, online or offline. You are able to easily monitor transaction activity, add and remove funds, as well as balence your account all in one convenient location.
 
 ## Installation
 
