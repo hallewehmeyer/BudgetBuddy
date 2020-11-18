@@ -14,7 +14,7 @@ self.addEventListener("install", function (evt) {
   evt.waitUntil(
     caches.open(CACHE_NAME).then(cache => {
       console.log("you have cached your files successfully");
-      return cache.addAll(FILES_TO_CACHE)
+      return cache.addAll(FILES_TO_CACHE);
     })
   );
   self.skipWaiting();
@@ -50,7 +50,6 @@ self.addEventListener("fetch", function(evt) {
             return response;
           })
           .catch(err => {
-            // Network request failed, try to get it from the cache.
             return cache.match(evt.request);
           });
       }).catch(err => console.log(err))
