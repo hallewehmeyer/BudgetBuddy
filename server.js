@@ -26,9 +26,3 @@ app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
 });
 
-
-db.newdatabase.insert({
-  "name2": "this is name2",
-  "title": ["item 1", "item2", "item3"],
-  "country": "this is country"
-})
