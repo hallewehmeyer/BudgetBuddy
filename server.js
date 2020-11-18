@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(`mongodb+srv://halle_admin:${process.env.mongopass}@cluster0.mkbbb.mongodb.net/budget?retryWrites=true&w=majority`, {
+mongoose.connect(`mongodb+srv://halle:Unicorn04*${process.env.mongopass}@cluster0.ngh6a.mongodb.net/budget?retryWrites=true&w=majority`, {
   useNewUrlParser: true,
   useFindAndModify: false
 });
