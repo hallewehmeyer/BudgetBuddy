@@ -9,7 +9,7 @@ By using Budget Buddy, you are able to keep track of your finances in real time,
 
 ## Installation
 
-Follow the link below to deploy in your browser to meet your new budget buddy!
+Follow the link below to deploy in your browser and meet your new budget buddy!
 
 <a href = "https://og-budget-buddy.herokuapp.com/"> Budget Buddy Live Link</a>
 
